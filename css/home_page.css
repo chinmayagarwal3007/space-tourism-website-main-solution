@@ -1,0 +1,159 @@
+body {
+    background-image: url("C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo line nav_bar_content";
+}
+
+.logo {
+    grid-area: logo;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+.line {
+    grid-area: line;
+    margin-top: 2.6rem;
+}
+
+.nav_bar_content {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin-top: 1.4rem;
+    font-size: .7rem;
+    grid-area: nav_bar_content;
+    display: grid;
+    grid-auto-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas: "home destination crew technology";
+    background-color: rgb(255, 255, 255, .2);
+}
+
+.home {
+    grid-area: home;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.destination {
+    grid-area: destination;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.crew {
+    grid-area: crew;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.technology {
+    grid-area: technology;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.crew:hover {
+    font-size: 0.8rem;
+}
+
+.technology:hover {
+    font-size: 0.8rem;
+}
+
+.destination:hover {
+    font-size: 0.8rem;
+}
+
+.home:hover {
+    font-size: 0.8rem;
+}
+
+.black_line {
+    border-color: black;
+    border-top: 1px solid rgb(87, 85, 85);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.handling_intro {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-template-areas: "tour_intro explore";
+}
+
+.tour_intro {
+    grid-area: tour_intro;
+    padding-top: 8rem;
+    padding-left: 6rem;
+}
+
+.explore {
+    grid-area: explore;
+    padding-top: 13rem;
+    padding-left: 4rem;
+}
+
+.travel {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #7F7C82;
+}
+
+.space {
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    font-size: 7rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tour_description {
+    padding-right: 27rem;
+    line-height: 1.6;
+    text-align: left;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    color: #7F7C82;
+}
+
+.btn {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 12rem;
+    line-height: 12rem;
+    color: #000000;
+    font-family: 'Bitter', serif;
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 0;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    height: 12.2rem;
+    width: 12.2rem;
+}
