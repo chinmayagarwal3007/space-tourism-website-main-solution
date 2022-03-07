@@ -1,0 +1,213 @@
+body {
+    background-image: url("C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/assets/crew/background-crew-desktop.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+}
+
+.meet_crew {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    padding: 4rem;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    grid-area: meet_crew;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo line nav_bar_content";
+}
+
+.logo {
+    grid-area: logo;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+.line {
+    grid-area: line;
+    margin-top: 2.6rem;
+}
+
+.nav_bar_content {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin-top: 1.4rem;
+    font-size: .7rem;
+    grid-area: nav_bar_content;
+    display: grid;
+    grid-auto-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas: "home destination crew technology";
+    background-color: rgb(255, 255, 255, .09);
+}
+
+.home {
+    grid-area: home;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.destination {
+    grid-area: destination;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.crew {
+    grid-area: crew;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.technology {
+    grid-area: technology;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.crew:hover {
+    font-size: 0.8rem;
+}
+
+.technology:hover {
+    font-size: 0.8rem;
+}
+
+.destination:hover {
+    font-size: 0.8rem;
+}
+
+.home:hover {
+    font-size: 0.8rem;
+}
+
+.black_line {
+    border-color: black;
+    border-top: 1px solid rgb(87, 85, 85);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.navbar_text {
+    color: rgb(203, 201, 206);
+}
+
+.about_crew {
+    grid-area: about_crew;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 60% 10%;
+    grid-template-areas: "meet_crew" "crew_information" "buttons";
+}
+
+.crew_information {
+    grid-area: crew_information;
+    padding-left: 4rem;
+}
+
+.crew_img {
+    grid-area: crew_img;
+}
+
+.crew_post {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    color: #7F7C82;
+    margin-bottom: 0;
+}
+
+.crew_name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 4.5rem;
+    margin-top: 0;
+}
+
+.crew_pic {
+    height: 36rem;
+    margin-top: 3rem;
+}
+
+.crew_achivement {
+    padding-right: 20rem;
+    line-height: 1.6;
+    text-align: left;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    color: #7F7C82;
+}
+
+.two {
+    color: #7F7C82;
+}
+
+.handling_crew {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-template-areas: "about_crew crew_img";
+}
+
+.btn {
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    height: 0;
+    line-height: 0;
+    color: #000000;
+    font-family: Brush Script MT;
+    width: 0;
+    font-size: 0;
+    font-weight: 100;
+    padding: 0;
+    background-color: #696969;
+    border: solid #696969 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #696969;
+    border: solid #FFFFFF 4px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    text-decoration: none;
+}
+
+.buttons {
+    grid-area: buttons;
+    padding-left: 4rem;
+}
+
+#btn1 {
+    border: solid #FFFFFF 4px;
+    margin-right: 0.5rem;
+}
+
+#btn2 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#btn3 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#btn4 {
+    margin-left: 0.5rem;
+}
