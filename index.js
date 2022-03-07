@@ -1,10 +1,10 @@
-function toHome() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/index.html" }
+function toHome() { location.href = "index.html" }
 
-function toCrew() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/Crew_Page.html" }
+function toCrew() { location.href = "Crew_Page.html" }
 
-function toDestination() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/Destination_Page.html" }
+function toDestination() { location.href = "Destination_Page.html" }
 
-function toTechnology() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/Technology_Page.html" }
+function toTechnology() { location.href = "Technology_Page.html" }
 
 
 
