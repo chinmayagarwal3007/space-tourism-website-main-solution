@@ -1,0 +1,261 @@
+body {
+    background-image: url("C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "logo line nav_bar_content";
+}
+
+.logo {
+    grid-area: logo;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+.line {
+    grid-area: line;
+    margin-top: 2.6rem;
+}
+
+.nav_bar_content {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin-top: 1.4rem;
+    font-size: .7rem;
+    grid-area: nav_bar_content;
+    display: grid;
+    grid-auto-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas: "home destination crew technology";
+    background-color: rgb(255, 255, 255, .09);
+}
+
+.home {
+    grid-area: home;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.destination {
+    grid-area: destination;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.crew {
+    grid-area: crew;
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.technology {
+    grid-area: technology;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.crew:hover {
+    font-size: 0.8rem;
+}
+
+.technology:hover {
+    font-size: 0.8rem;
+}
+
+.destination:hover {
+    font-size: 0.8rem;
+}
+
+.home:hover {
+    font-size: 0.8rem;
+}
+
+.black_line {
+    border-color: black;
+    border-top: 1px solid rgb(87, 85, 85);
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.navbar_text {
+    color: rgb(203, 201, 206);
+}
+
+.handling_technology {
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-template-areas: "about_technology technology_img";
+}
+
+.technology_img {
+    grid-area: technology_img;
+}
+
+.about_technology {
+    grid-area: about_technology;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: "space_launch" "bottom_side";
+}
+
+.space_launch {
+    grid-area: space_launch;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+    padding-left: 4rem;
+    font-size: 1.3rem;
+}
+
+.bottom_side {
+    grid-area: bottom_side;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    grid-template-areas: "technology_count technology_details";
+}
+
+.technology_count {
+    grid-area: technology_count;
+    margin-left: 2.5rem;
+}
+
+.technology_details {
+    grid-area: technology_details;
+}
+
+.technology_name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.technology_power {
+    padding-right: 15rem;
+    line-height: 1.6;
+    text-align: left;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    color: #7F7C82;
+}
+
+.terminology {
+    color: #7F7C82;
+    text-align: left;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.btn1 {
+    margin-bottom: 1rem;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 65px;
+    line-height: 65px;
+    color: black;
+    font-family: Arial;
+    width: 65px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0;
+    background-color: white;
+    border: 0.1px solid #423F3E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn1:hover {
+    background: #E9EFF5;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn2 {
+    margin: 1rem 0;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 65px;
+    line-height: 65px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 65px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0;
+    background-color: rgb(255, 255, 255, 0);
+    border: 0.1px solid #423F3E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn2:hover {
+    background: #E9EFF5;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn3 {
+    margin: 1rem 0;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 65px;
+    line-height: 65px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 65px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 0;
+    background-color: rgb(255, 255, 255, 0);
+    border: 0.1px solid #423F3E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn3:hover {
+    background: #E9EFF5;
+    border: solid #FFFFFF 1px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.three {
+    color: #7F7C82;
+}

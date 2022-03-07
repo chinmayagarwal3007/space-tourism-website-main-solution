@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="css/technology_page.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Roboto+Slab:wght@200;300&family=Source+Sans+3:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+
+
+    <div class="nav_bar">
+        <div class="logo">
+            <img src="assets\shared\logo.png" alt="">
+        </div>
+
+        <div class="line">
+            <hr class="black_line">
+        </div>
+
+        <div class="nav_bar_content">
+            <p class="home" onclick="toHome()">00 <span class="navbar_text">HOME</span></p>
+            <p class="destination" onclick="toDestination()">01 <span class="navbar_text">DESTINATION</span></p>
+            <p class="crew" onclick="toCrew()">02 <span class="navbar_text">CREW</span></p>
+            <p class="technology" onclick="toTechnology()">03 <span class="navbar_text">TECHNOLOGY</span></p>
+        </div>
+    </div>
+
+    <div class="handling_technology">
+
+        <div class="about_technology">
+            <div class="space_launch">
+                <h3><span class="three">03</span>&nbsp;&nbsp;SPACE&nbsp;&nbsp;LAUNCH&nbsp;&nbsp;101</h3>
+            </div>
+
+            <div class="bottom_side">
+                <div class="technology_count">
+                    <button class="btn1" id="btn1" onclick="spaceCapsule()">1</button>
+                    <br>
+                    <button class="btn2" id="btn2" onclick="spacePort()">2</button>
+                    <br>
+                    <button class="btn3" id="btn3" onclick="spaceVehicle()">3</button>
+                </div>
+
+                <div class="technology_details">
+                    <h6 class="terminology">THE&nbsp;&nbsp;TERMINOLOGY...</h6>
+                    <h1 class="technology_name" id="technology_name"> SPACE CAPSULE</h1>
+                    <p class="technology_power" id="technology_power">
+                        A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities
+                        to keep you entertained.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="technology_img">
+            <img class="technology_pic" id="technology_pic" src="assets/technology/image-space-capsule-portrait.jpg" alt="">
+        </div>
+
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
