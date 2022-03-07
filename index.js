@@ -1,4 +1,4 @@
-function toHome() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/Home_Page.html" }
+function toHome() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/index.html" }
 
 function toCrew() { location.href = "C:/Users/Lenovo/Desktop/Web Development/space-tourism-website-main/space-tourism-website-main/starter-code/Finished/Crew_Page.html" }
 
